@@ -1,0 +1,152 @@
+.row {
+    margin: 0;
+}
+
+.header {
+    background-color: #c8cacd;
+    color: #545657;
+    padding-top: 4%;
+}
+
+.synopsis {
+    text-align: center;
+}
+
+@media(min-width: 992px) {
+    .header {
+        margin-top: 12vh;
+        padding-bottom: 4%;
+    }
+    .title {
+        margin-bottom: 5vh;
+    }
+    .title h1 {
+        font-size: 4em;
+    }
+}
+@media(max-width: 992px) {
+    .title, .col-12 {
+        padding: 0;
+    }
+    .title h1 {
+        padding-top: 2vh;
+    }
+    .synopsis .col-lg-4 {
+        padding: 2vh 0;
+    }
+}
+
+/*
+    Project
+*/
+
+.project {
+    padding: 4%;
+    padding-bottom: 6.5%;
+}
+
+.project-text h2 {
+    font-size: 2.4em;
+    margin-bottom: 4vh;
+}
+
+.project p, li {
+    font-family: gesta, sans-serif;
+    font-size: 1.3em;
+}
+.project li {
+    text-align: left;
+}
+
+.carousel-item img {
+    text-align: center;
+    width: 40vw;
+}
+
+.project-text {
+    flex-direction: column;
+}
+
+.mobile-section {
+    margin: 3vh 0;
+    text-align: center;
+}
+
+.mobile-section h2 {
+    text-decoration: underline;
+}
+
+.mobile-section p,li {
+    font-size: .95em;
+}
+.mobile-section img {
+    width: 80vw;
+}
+
+@media(max-width:992px) {
+    .mobile-section img {
+        margin: 2vh 0;
+    }
+    .project {
+        padding-bottom: 3%;
+    }
+}
+@media(min-width:992px) {
+    .carousel-indicators {
+        bottom: -12%;
+    }
+}
+@media(min-width:1200px) {
+    .carousel-indicators {
+        bottom: -15%;
+    }
+}
+
+
+/*
+    Demo
+*/
+
+.demo {
+    background-color: #c8cacd;
+    padding: 3% 0;
+}
+
+.demo .row .col-10 {
+    flex-direction: column;
+}
+
+.demo h1 {
+    font-size: 3em;
+    margin-bottom: 4vh;
+}
+
+.iframe-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;  
+}
+
+iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.demo a {
+    color: white;
+    text-decoration: underline;
+}
+
+.demo h4 {
+    margin-top: 5vh;
+}
+
+@media(max-width:992px) {
+    .demo {
+        padding: 8% 0;
+    }
+}

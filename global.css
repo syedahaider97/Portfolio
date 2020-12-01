@@ -1,0 +1,128 @@
+body {
+    font-family: ocr-a-std, monospace;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #545657;
+    color: white;
+}
+
+/*
+    General
+*/
+.center-flex {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+}
+
+.section-space {
+    padding: 5vh 0;
+}
+
+.sideways-right h1 {
+    color: #545657;
+}
+
+@media (min-width:992px) {
+
+    .sideways-left h1{
+        font-size: 4em;
+        writing-mode: vertical-rl;
+        transform: rotate(180deg);
+    }
+    
+    .sideways-right h1{
+        font-size: 4em;
+        writing-mode: vertical-rl;
+    }
+}
+
+
+/*
+    NAV BAR
+*/
+
+@media (min-width:992px) { 
+    nav {
+        height: 12vh;
+    }
+ 
+    .navbar-brand {
+        font-size: 1.7em;
+    }
+    .nav-item {
+        padding: 0 2rem;
+    }
+    
+    a:hover {
+        color: #4fac3e;
+        cursor: pointer;
+    }
+    
+    .navbar {
+        z-index: 100;
+        background-color: #545657;
+        position: fixed; 
+        top: 0; 
+        width: 100%; 
+        transition: top 0.3s; 
+      }
+}
+
+.navbar-brand, .nav-link {
+    color: white !important;
+    font-size: 1.2em;
+}
+
+.navbar-brand {
+    font-size: 1.6em;
+    margin-left: 1vw;
+}
+
+/*
+    Footer
+*/
+
+.footer {
+    height: 15vh;
+    font-family: gesta, sans-serif;
+}
+
+.footer img {
+    height: 40%;
+    margin: 0 .5vw;
+}
+
+.footer a {
+    height: 100%;
+    color: white;
+    align-items: center;
+}
+
+@media (max-width: 992px) {
+    .location {
+        margin-bottom: 4vh;
+    }
+    .footer img {
+        margin: 0 2vw;
+    }
+}
+
+#ScrollToTop {
+    display: none;
+    position: fixed;
+    bottom: 8.6%;
+    right: 2.5%;
+    height: 8vh;
+    width: 8vh
+}
+
+@media(max-width:992px) { 
+    #ScrollToTop {
+        bottom:5%;
+        right:5%;
+        height:8vh;
+        width:8vh
+    }
+}
