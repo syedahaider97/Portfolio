@@ -206,14 +206,14 @@ p {
 */
 
 #Projects {
-    margin: 6vh 0 10vh;
+    margin: 6vh 0 8vh;
 }
 
 .projects {
-    height: 50vh;
+    height: 90vh;
 }
 
-.projects .col-lg-3 img {
+.projects .col-lg-4 img {
     height: 30vh;
     width: 30vh;
     margin: 3vh 0 4vh 0;
