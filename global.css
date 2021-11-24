@@ -115,7 +115,8 @@ body {
     bottom: 8.6%;
     right: 2.5%;
     height: 8vh;
-    width: 8vh
+    width: 8vh;
+    cursor: pointer;
 }
 
 @media(max-width:992px) { 
